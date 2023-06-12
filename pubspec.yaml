@@ -1,0 +1,77 @@
+name: mesapp
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.3 <4.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  #UI
+  cupertino_icons: ^1.0.2
+
+  #UTILS
+  flutter_bloc: ^8.1.3
+  firebase_core: ^2.13.1
+  go_router: ^7.1.1 
+  country_picker: ^2.0.20
+
+  #DATA
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+  hive_generator: ^2.0.0
+  build_runner: ^2.4.4
+  
+flutter:
+
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/images/png/png_devka.png
+
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  fonts:
+    - family: Dosis
+      fonts:
+        - asset: assets/fonts/Dosis/Dosis-Regular.ttf
+        - asset: assets/fonts/Dosis/Dosis-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Dosis/Dosis-ExtraBold.ttf
+          weight: 900
+        - asset: assets/fonts/Dosis/Dosis-ExtraLight.ttf
+          weight: 100
+        - asset: assets/fonts/Dosis/Dosis-Light.ttf
+          weight: 300
+        - asset: assets/fonts/Dosis/Dosis-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Dosis/Dosis-SemiBold.ttf
+          weight: 600
+          
+
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages

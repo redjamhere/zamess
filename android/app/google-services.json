@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1095789627246",
+    "project_id": "zamess-123e5",
+    "storage_bucket": "zamess-123e5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1095789627246:android:18a2ed10baab67765b237f",
+        "android_client_info": {
+          "package_name": "com.zaymanoff.mesapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1095789627246-lscsf5qajq1s251jj7e32id5r0rhh649.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCQClV8YlNCP4L1pqMFYSHrKrj3Gu0nFBc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1095789627246-lscsf5qajq1s251jj7e32id5r0rhh649.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
